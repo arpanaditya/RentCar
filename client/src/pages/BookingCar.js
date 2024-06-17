@@ -38,10 +38,10 @@ function BookingCar() {
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
-    if (cars.length == 0) {
+    if (cars.length === 0) {
       dispatch(getAllCars());
     } else {
-      setcar(cars.find((o) => o._id == carid));
+      setcar(cars.find((o) => o._id === carid));
     }
   }, [cars]);
 

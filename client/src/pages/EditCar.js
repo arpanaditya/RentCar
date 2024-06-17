@@ -16,11 +16,11 @@ function EditCar({match}) {
     const {carid} = useParams();
 
     useEffect(()=>{
-        if(cars.length == 0){
+        if(cars.length === 0){
             dispatch(getAllCars())
         }else{
             settotalcars(cars)
-            setcar(cars.find((o)=> o._id == carid ));
+            setcar(cars.find((o)=> o._id === carid ));
             console.log(car);
         }
     },[cars])

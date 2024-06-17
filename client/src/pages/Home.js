@@ -145,14 +145,14 @@ function Home() {
                 border: "2px solid gray",
               }}
             />
-            <RangePicker
+            {/* <RangePicker
               onChange={(values) => console.log(values)}
               style={{
                 width: "20%",
                 borderRadius: "4px",
                 border: "2px solid gray",
               }}
-            />
+            /> */}
           </Col>
         </Row>
 
