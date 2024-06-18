@@ -52,8 +52,8 @@ function UserBookings() {
                     </Col>
                     <Col lg={10} sm={24}>
                       <p>Name : <b>{item.car?.name}</b></p>
-                      <p>From : <b>{item.bookedTimeSlots?.from}</b></p>
-                      <p>To : <b>{item.bookedTimeSlots?.to}</b></p>
+                      {/* <p>From : <b>{item.bookedTimeSlots?.from}</b></p>
+                      <p>To : <b>{item.bookedTimeSlots?.to}</b></p> */}
                       <p>Date of booking : <b>{moment(item.createdAt).format('MMM DD yyyy')}</b></p>
                     </Col>
                     <Col lg={7} sm={24}>
