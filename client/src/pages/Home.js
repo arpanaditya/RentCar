@@ -131,6 +131,9 @@ function Home() {
           backgroundColor: "#F8F9FA",
           color: "#212529",
           padding: "20px",
+          width: "118%",
+          marginLeft: "-10%",
+          marginTop: "-1%",
         }}
       >
         <Row className="mt-3" justify="center">
