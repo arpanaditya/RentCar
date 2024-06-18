@@ -424,9 +424,9 @@ const Contact = () => {
       content: `Your message has been sent successfully! Redirecting you to home page...`,
       duration: 3,
     });
-    
+
     setTimeout(() => {
-      window.location.href="/"
+      window.location.href = "/";
     }, 3000);
   };
 
@@ -470,7 +470,7 @@ const Contact = () => {
 
   return (
     <DefaultLayout>
-    {contextHolder}
+      {contextHolder}
       <div style={{ textAlign: "center" }}>
         <Row justify="center">
           <Col lg={8} md={12} sm={20} xs={24}>
@@ -557,6 +557,14 @@ const Contact = () => {
             </Form>
           </Col>
         </Row>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3743.2159707637284!2d85.79765577469409!3d20.24987591407535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a7a3b9692fff%3A0x87cd0a356bbc39ce!2sITER%2C%20Siksha%20&#39;O&#39;%20Anusandhan!5e0!3m2!1sen!2sin!4v1718674487209!5m2!1sen!2sin"
+          width="500"
+          height="300"
+          style={{border:0, marginTop: 50, borderRadius: 8, boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.1)'}}
+          loading="lazy"
+          title="map"
+        ></iframe>
       </div>
     </DefaultLayout>
   );

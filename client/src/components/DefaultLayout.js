@@ -200,7 +200,7 @@ function DefaultLayout(props) {
           </h1>
           {user && user.admin ? (
             <Dropdown menu={{ items }} placement="bottom">
-              <Button style={styles.button}>{user.username}</Button>
+              <Button style={styles.button}>Hello {user.username}</Button>
             </Dropdown>
           ) : (
             <Dropdown
@@ -211,7 +211,7 @@ function DefaultLayout(props) {
               }}
               placement="bottom"
             >
-              <Button style={styles.button}>{user.username}</Button>
+              <Button style={styles.button}>Hello {user.username}</Button>
             </Dropdown>
           )}
         </div>
@@ -254,7 +254,7 @@ const styles = {
     borderRadius: "5px",
     boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
     position: "relative",
-    left: 1280,
+    left: 1250,
   },
   content: {
     padding: "20px",
