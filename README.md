@@ -1,4 +1,4 @@
-# Car Rental Application
+# RentCar
 
 ## Description
 
@@ -70,4 +70,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Authors
 
-- [Your Name](https://github.com/MohamedAmineALLAF)
+- [@arpanaditya](https://github.com/arpanaditya)
